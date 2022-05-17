@@ -8,6 +8,15 @@
     <button @click="restar">-1</button>
     <button @click="reset">reset</button>
   </div>
+  <div>
+    <img
+      class="vite"
+      src="./assets/logo_vite.svg"
+      alt="logo vite"
+      width="200"
+      height="200"
+    />
+  </div>
 </template>
 
 <script>
@@ -53,5 +62,10 @@ button {
   cursor: pointer;
   font-size: 1.5rem;
   margin: 0px 6px;
+}
+
+.vite {
+  display: flex;
+  margin: 30px auto;
 }
 </style>
