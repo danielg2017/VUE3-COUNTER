@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <img src="./assets/logo.svg" alt="logo vue" width="200" height="200" />
-    <small><h1>Hola mundo desde VUE.JS 3</h1> </small>
+    <small>
+      <h1>Hola mundo desde VUE.JS 3</h1>
+    </small>
     <hr />
     <h2>Contador {{ contador }}</h2>
     <button @click="sumar">+1</button>
@@ -9,13 +11,7 @@
     <button @click="reset">reset</button>
   </div>
   <div>
-    <img
-      class="vite"
-      src="./assets/logo_vite.svg"
-      alt="logo vite"
-      width="200"
-      height="200"
-    />
+    <img class="vite" src="./assets/logo_vite.svg" alt="logo vite" width="200" height="200" />
   </div>
 </template>
 
